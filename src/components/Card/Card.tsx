@@ -12,7 +12,7 @@ export default function Card({ AtualizarValorDeFiltros, filtros }: ArrayProps) {
 
     useEffect(() => {
         const TrazerInformacoesDosCards = async () => {
-            const url = "/data.json";
+            const url = `${import.meta.env.BASE_URL}data.json`;
             try {
                 const response = await fetch(url);
                 if (!response.ok) {
