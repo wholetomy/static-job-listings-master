@@ -1,15 +1,18 @@
 import styled from "styled-components";
 
 export const FilterContainer = styled.div`
-    width: calc(100% - 128px);
-    background: #ffffff;
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
     padding: 16px;
     display: flex;
-    grid-gap: 16px;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
-    top: -32px;
+    gap: 16px;
+    margin-top: -96px;
+    margin-bottom: 40px;
+    box-shadow: rgba(50, 50, 93, 0.15) 0px 10px 30px 0px, rgba(0, 0, 0, 0.1) 0px 18px 18px -18px;
+    border-radius: 4px;
 
     .filtros-div {
         display: flex;

@@ -1,10 +1,9 @@
 import styled from "styled-components";
 
 export const AppContainer = styled.div`
-    padding: 64px;
-    position: relative;
+    padding: 68px 64px 64px;
 
     @media (max-width: 600px) {
-        padding: 80px 16px;
+        padding: 68px 16px 32px;
     }
-`
+`;

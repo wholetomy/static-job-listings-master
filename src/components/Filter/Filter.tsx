@@ -12,7 +12,7 @@ export default function Filter({ filtros, RemoverTodosOsFiltros, RemoverFiltroDo
   return (
     <>
       {filtros.length === 0 ? (
-          <div></div>
+          <></>
         ) : (
         
         <FilterContainer>
