@@ -65,8 +65,4 @@ export const FilterContainer = styled.div`
         cursor: pointer;
         text-decoration: underline;
     }
-
-    @media (max-width: 600px) {
-        width: calc(100% - 32px);
-    }
 `
