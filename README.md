@@ -45,7 +45,7 @@ Link: https://wholetomy.github.io/static-job-listings-master/
 ```bash
 git clone https://github.com/wholetomy/static-job-listings-master
 
-cd projeto
+cd static-job-listings-master
 
 npm install
 
